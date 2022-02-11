@@ -1,0 +1,195 @@
+@media screen and (max-width:767px) {
+    html{
+        font-size: 12px;
+    }
+    .headBg{
+        width:100%;
+        background-color: rgba(40, 40, 40, 0.5);
+        height:4.3rem;
+        position: absolute;
+        top:0;
+        z-index: 3;
+    }
+    .headWrap{
+        width:89vw;
+        height:3.125rem;
+        margin: 0.78rem auto;
+    }
+
+    .headWrap > .logo{
+        width:max-content;
+        padding-top: 0.78rem;
+    }
+
+    .headWrap > .logo > .logoImg{
+        display: block;
+        width:13.75rem;
+        height:2.375rem;
+        background-image: url(../img/logo.png);
+       
+    }
+
+    .headWrap > .iconBox{
+       display: flex;
+       justify-content: space-around;
+       width:9.375rem;
+    }
+
+    .headWrap > .iconBox a{
+        display: block;
+        width:2.5rem;
+        height:2.5rem;
+     }
+
+     .headWrap > .iconBox div{
+         margin-top: 0.34rem;
+     }
+
+     .headWrap > .iconBox .shareImg{
+        background-image: url(../img/share.png);
+     }
+
+     .headWrap > .iconBox .commentImg{
+        background-image: url(../img/comment.png);
+     }
+
+    .mainBg{
+        width:100%;
+        height:700px;
+        background-image: url(../img/main.jpg);
+        position: relative;
+    }
+
+    .mainBg > .glitch{
+        width:31rem;
+        color:white;
+        text-align: center;
+        font-family: 'Noto Serif KR', serif;
+        font-size: 2.4rem;
+    }
+
+    .mainBg > .glitch  h3{
+        font-weight: 500;
+    }
+
+    .mainBg > .glitch  h3 span{
+        font-weight: 900;
+    }
+
+    .mainBg > .scroll{
+        position: absolute;
+        bottom: 4%;
+        left:50%;
+        transform: translateX(-50%);
+        transition: 0.5s ease;
+    }
+
+    .scroll > .scImg{
+        width:1.46rem;
+        height:3.55rem;
+        background-image: url(../img/scroll.png);
+    }
+
+    .scroll.active{
+        bottom:5%;
+        transition: 0.5s ease;
+    }
+}
+
+@media screen and (max-width:350px){
+    html{
+        font-size: 10px;
+    }
+    .headBg{
+        width:100%;
+        background-color: rgba(40, 40, 40, 0.5);
+        height:4.3rem;
+        position: absolute;
+        top:0;
+        z-index: 3;
+    }
+    .headWrap{
+        width:89vw;
+        height:3.125rem;
+        margin: 0.78rem auto;
+    }
+
+    .headWrap > .logo{
+        width:max-content;
+        padding-top: 0.78rem;
+    }
+
+    .headWrap > .logo > .logoImg{
+        display: block;
+        width:13.75rem;
+        height:2.375rem;
+        background-image: url(../img/logo.png);
+       
+    }
+
+    .headWrap > .iconBox{
+       display: flex;
+       justify-content: space-around;
+       width:9.375rem;
+    }
+
+    .headWrap > .iconBox a{
+        display: block;
+        width:2.5rem;
+        height:2.5rem;
+     }
+
+     .headWrap > .iconBox div{
+         margin-top: 0.34rem;
+     }
+
+     .headWrap > .iconBox .shareImg{
+        background-image: url(../img/share.png);
+     }
+
+     .headWrap > .iconBox .commentImg{
+        background-image: url(../img/comment.png);
+     }
+
+    .mainBg{
+        width:100%;
+        height:660px;
+        background-image: url(../img/main.jpg);
+        position: relative;
+    }
+
+    .mainBg > .glitch{
+        width:25.5rem;
+        color:white;
+        text-align: center;
+        font-family: 'Noto Serif KR', serif;
+        font-size: 2rem;
+    }
+
+    .mainBg > .glitch  h3{
+        font-weight: 500;
+    }
+
+    .mainBg > .glitch  h3 span{
+        font-weight: 900;
+    }
+
+    .mainBg > .scroll{
+        position: absolute;
+        bottom: 4%;
+        left:50%;
+        transform: translateX(-50%);
+        transition: 0.5s ease;
+    }
+
+    .scroll > .scImg{
+        width:1.46rem;
+        height:3.55rem;
+        background-image: url(../img/scroll.png);
+    }
+
+    .scroll.active{
+        bottom:5%;
+        transition: 0.5s ease;
+    }
+}
